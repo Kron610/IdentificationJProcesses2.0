@@ -33,7 +33,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Rockwell</family>
+     <family>MS Shell Dlg 2</family>
      <pointsize>-1</pointsize>
      <weight>75</weight>
      <bold>true</bold>
@@ -155,6 +155,52 @@ border-color: rgb(49, 49, 49);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>470</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;
+background-color:rgb(85, 255, 127);
+border: 1px solid rgb(222, 222, 222);
+height: 30px;
+font-size: 14px;
+font-weight: 600;
+color: rgb(49, 49, 49);
+border-color:rgb(49, 49, 49);</string>
+   </property>
+   <property name="text">
+    <string>Show alternative names</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>434</x>
+     <y>470</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;
+background-color: rgb(215, 255, 233);
+border: 1px solid rgb(222, 222, 222);
+height: 30px;
+font-size: 14px;
+font-weight: 600;
+color: rgb(49, 49, 49);
+border-color:rgb(49, 49, 49);</string>
+   </property>
+   <property name="text">
+    <string>Show all java applications</string>
    </property>
   </widget>
  </widget>
